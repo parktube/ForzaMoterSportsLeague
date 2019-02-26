@@ -2,11 +2,3 @@
 theme: jekyll-theme-cayman
 ---
 
-
-<ul>
-{% for member in site.data.members %}
-  <li>
-      {{ member.name }}
-  </li>
-{% endfor %}
-</ul>
