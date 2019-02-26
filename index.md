@@ -1,7 +1,4 @@
-## 포르자 모터스포츠 리그 정보 모음
-
-https://parktube.github.io/ForzaMoterSportsLeague/
-
+## 포르자 모터스포츠 리그 2019년 2월 1주차 순위
 
 <table>
 	<th>No</th>
