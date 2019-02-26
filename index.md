@@ -2,10 +2,14 @@
 
 https://parktube.github.io/ForzaMoterSportsLeague/
 
-<ul>
-{% for member in site.data.members %}
-  <li>
-      {{ member.name }}
-  </li>
-{% endfor %}
-</ul>
+
+<table>
+	<th>User</th>
+	<th>Time</th>
+	{% for member in site.data.members %}
+	<tr>
+		<td>{{ member.name }}</td>
+		<td>{{ member.time }}</td>
+	</tr>
+	{% endfor %}
+</table>
