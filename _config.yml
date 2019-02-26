@@ -6,7 +6,7 @@ theme: jekyll-theme-cayman
 <ul>
 {% for member in site.data.rank %}
   <li>
-      { member.name }
+      {{ member.name }}
   </li>
 {% endfor %}
 </ul>
